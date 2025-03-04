@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/frank/code/clang/练习/排序"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _bubble_sort, symObjAddr: 0x0, symBinAddr: 0x1000038EC, symSize: 0xF8 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _bubble_sort, symObjAddr: 0x0, symBinAddr: 0x1000038EC, symSize: 0xF8 }
+  - { offsetInCU: 0xC7, offset: 0xC7, size: 0x8, addend: 0x0, symName: _select_sort, symObjAddr: 0xF8, symBinAddr: 0x1000039E4, symSize: 0xFC }
+  - { offsetInCU: 0x15B, offset: 0x15B, size: 0x8, addend: 0x0, symName: _insert_sort, symObjAddr: 0x1F4, symBinAddr: 0x100003AE0, symSize: 0xFC }
+  - { offsetInCU: 0x1E1, offset: 0x1E1, size: 0x8, addend: 0x0, symName: _shell_sort, symObjAddr: 0x2F0, symBinAddr: 0x100003BDC, symSize: 0x14C }
+  - { offsetInCU: 0x275, offset: 0x275, size: 0x8, addend: 0x0, symName: _partition, symObjAddr: 0x43C, symBinAddr: 0x100003D28, symSize: 0xD8 }
+  - { offsetInCU: 0x30D, offset: 0x30D, size: 0x8, addend: 0x0, symName: _quick_sort, symObjAddr: 0x514, symBinAddr: 0x100003E00, symSize: 0x84 }
+  - { offsetInCU: 0x35B, offset: 0x35B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x598, symBinAddr: 0x100003E84, symSize: 0xE0 }
+...

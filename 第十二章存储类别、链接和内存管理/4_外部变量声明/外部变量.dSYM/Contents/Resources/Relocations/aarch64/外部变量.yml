@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/frank/code/clang/第十二章存储类别、链接和内存管理/外部变量声明/外部变量"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _test, symObjAddr: 0x0, symBinAddr: 0x100003F08, symSize: 0x3C }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _giants, symObjAddr: 0x94, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _g_val, symObjAddr: 0x98, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _Errupt, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x87, offset: 0x87, size: 0x8, addend: 0x0, symName: _test, symObjAddr: 0x0, symBinAddr: 0x100003F08, symSize: 0x3C }
+  - { offsetInCU: 0xA0, offset: 0xA0, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3C, symBinAddr: 0x100003F44, symSize: 0x40 }
+...

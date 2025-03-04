@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/frank/code/clang/第十四章结构体和其他数据形式/4_向函数传递结构体"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _Input, symObjAddr: 0x0, symBinAddr: 0x100003C60, symSize: 0x15C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _Input, symObjAddr: 0x0, symBinAddr: 0x100003C60, symSize: 0x15C }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _Max, symObjAddr: 0x15C, symBinAddr: 0x100003DBC, symSize: 0xC0 }
+  - { offsetInCU: 0xD3, offset: 0xD3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x21C, symBinAddr: 0x100003E7C, symSize: 0x94 }
+...
