@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+    二分查找前提条件：
+    1.为有序数组
+    2.无重复元素
+*/ 
 int search(int arr[], int len, int target)
 {
 
