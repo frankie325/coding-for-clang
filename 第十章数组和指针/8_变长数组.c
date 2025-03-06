@@ -3,6 +3,12 @@ int sum2d(int rows, int cols, int ar[rows][cols]);
 
 int main()
 {
+    // int n;
+    // scanf("%d", &n);
+    // 变长数组不能在声明时进行初始化
+    // 因为变长数组的长度是在运行时确定的，而初始化列表是在编译时确定的
+    // int arr[n] = 0; //error
+
     int rows = 4;
     int cols = 4;
     // 变长数组不是指可以修改已创建数组的大小，一旦创建了变长数组，它的大小则保持不变。

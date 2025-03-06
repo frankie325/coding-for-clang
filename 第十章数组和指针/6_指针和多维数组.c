@@ -33,8 +33,21 @@ int main()
     int *pax[2]; // 因为[]优先级高于*，pax是一个内含两个指针的数组
     pz = zippo;  // 指针名pz和数组名的用法一样，pz指向的地址就是 &zippo[0]，
     // pz指向数组的首元素的地址
-    printf("pz = %p", pz);         // 0x16d5670b0
-    printf("pz + 1 = %p", pz + 1); // 0x16d5670b8
-    printf("*pz = %p", *pz);       // 0x16d5670b0
-    printf("**pz = %p", **pz);     // 2
+    printf("pz = %p\n", pz);         // 0x16d5670b0
+    printf("pz + 1 = %p\n", pz + 1); // 0x16d5670b8
+    printf("*pz = %p\n", *pz);       // 0x16d5670b0
+    printf("**pz = %d\n", **pz);     // 2
+
+    /*
+    二级指针：指向指针的指针
+    注意与二维数组指针的区别：
+    二维数组指针：int (*pz)[2]; 二维数组指针指向的是一个包含多个一维数组的数组
+    二级指针：int **ppa; 二级指针指向的是一个指针变量，该指针变量又指向一个具体的值
+    */
+    int a = 1;
+    int *pa = &a;
+    int **ppa = &pa;
+    printf("a = %d\n", a);         // 1
+    printf("*pa = %d\n", *pa);     // 1
+    printf("**ppa = %d\n", **ppa); // 1
 }
