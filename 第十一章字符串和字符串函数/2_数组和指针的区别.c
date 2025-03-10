@@ -12,7 +12,7 @@ int main()
     printf("address of MSG: %p\n", MSG);                        // 0x104da3f48
     printf("address of \"I'm special\": %p \n", "I'm special"); // 0x104da3f48
 
-    // 如果打算修改字符串，应该使用字符数组而不是指针
+    // 如果打算修改字符串，而不想改变字符串常量，应该使用字符数组而不是指针
     // char *p1 = "Klingon";
     // p1[0] = "F";    
     // printf("Klingon"); // Flingon
