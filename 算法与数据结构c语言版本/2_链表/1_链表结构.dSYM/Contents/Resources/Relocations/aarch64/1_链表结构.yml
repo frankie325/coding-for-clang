@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/frank/code/clang/算法与数据结构c语言版本/2_链表/1_链表结构"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z11remove_nodeP8ListNodei, symObjAddr: 0x0, symBinAddr: 0x100003CFC, symSize: 0x13C }
+  - { offsetInCU: 0x6F, offset: 0x6F, size: 0x8, addend: 0x0, symName: __Z11remove_nodeP8ListNodei, symObjAddr: 0x0, symBinAddr: 0x100003CFC, symSize: 0x13C }
+  - { offsetInCU: 0xC1, offset: 0xC1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x13C, symBinAddr: 0x100003E38, symSize: 0x148 }
+...
