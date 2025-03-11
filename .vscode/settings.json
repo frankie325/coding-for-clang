@@ -49,7 +49,10 @@
         "variant": "cpp",
         "algorithm": "cpp",
         "list.h": "c",
-        "statement.h": "c"
+        "statement.h": "c",
+        "unordered_map": "c",
+        "stdbool.h": "c",
+        "vector": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
