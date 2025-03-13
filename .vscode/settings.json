@@ -52,7 +52,8 @@
         "statement.h": "c",
         "unordered_map": "c",
         "stdbool.h": "c",
-        "vector": "cpp"
+        "vector": "cpp",
+        "unordered_set": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
