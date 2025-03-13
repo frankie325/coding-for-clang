@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/frank/code/clang/c++/2_内存分区模型/3_堆区"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z4funcv, symObjAddr: 0x0, symBinAddr: 0x100003B54, symSize: 0x30 }
+  - { offsetInCU: 0x4479, offset: 0x4479, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB8ue170006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x138, symBinAddr: 0x100003C8C, symSize: 0x58 }
+  - { offsetInCU: 0x44B9, offset: 0x44B9, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB8ue170006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x2D0, symBinAddr: 0x100003E24, symSize: 0x2C }
+  - { offsetInCU: 0x6E81, offset: 0x6E81, size: 0x8, addend: 0x0, symName: __Z4funcv, symObjAddr: 0x0, symBinAddr: 0x100003B54, symSize: 0x30 }
+  - { offsetInCU: 0x6EAD, offset: 0x6EAD, size: 0x8, addend: 0x0, symName: __Z4testv, symObjAddr: 0x30, symBinAddr: 0x100003B84, symSize: 0xDC }
+  - { offsetInCU: 0x6FBA, offset: 0x6FBA, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB8ue170006EPFRS3_S4_E, symObjAddr: 0x10C, symBinAddr: 0x100003C60, symSize: 0x2C }
+  - { offsetInCU: 0x6FEC, offset: 0x6FEC, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x190, symBinAddr: 0x100003CE4, symSize: 0xB4 }
+  - { offsetInCU: 0x7014, offset: 0x7014, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB8ue170006Ec, symObjAddr: 0x244, symBinAddr: 0x100003D98, symSize: 0x8C }
+  - { offsetInCU: 0x7080, offset: 0x7080, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB8ue170006Ec, symObjAddr: 0x2FC, symBinAddr: 0x100003E50, symSize: 0x38 }
+...
