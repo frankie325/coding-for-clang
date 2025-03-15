@@ -53,7 +53,13 @@
         "unordered_map": "c",
         "stdbool.h": "c",
         "vector": "cpp",
-        "unordered_set": "c"
+        "unordered_set": "c",
+        "__split_buffer": "cpp",
+        "__hash_table": "cpp",
+        "__node_handle": "cpp",
+        "array": "cpp",
+        "list": "cpp",
+        "optional": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
