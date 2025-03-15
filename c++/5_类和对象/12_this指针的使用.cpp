@@ -20,7 +20,7 @@ public:
     Person &add(int age)
     {
         this->age += age;
-        // *this指向实例的指针，而*this指向的就是实例本体
+        // *this为指向实例的指针，而*this指向的就是实例本体
         return *this;
     }
 };
