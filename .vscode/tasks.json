@@ -46,6 +46,7 @@
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
+                "-std=c++11",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
@@ -66,6 +67,7 @@
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
+                "-std=c++11",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
